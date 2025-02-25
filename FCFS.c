@@ -82,7 +82,7 @@ void main() {
     calculate_TAT();
     calculate_WT();
 
-    printf("Process AT \t BT \t CT \t TAT \t WT\n");
+    printf("P: \t AT \t BT \t CT \t TAT \t WT\n");
     for(i=0; i<SIZE; i++) {
         printf("P%d\t %d\t %d\t %d\t %d\t %d\t\n", i+1, AT[i], BT[i], CT[i], TAT[i], WT[i]);
     }
